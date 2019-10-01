@@ -1,1 +1,27 @@
+div{
+border:1px solid gray
+}
+
+//Esta es la capa que contiene las otras 3 dentro
+#contenedor
+{
+width:600px;
+padding:20px;
+margin:0 auto;
+overflow:auto;
+}
+
+#arriba
+{
+width:100%;
+}
+#izquierda
+{
+width:49%;
+float:left;
+
+}
+#derecha{
+width:49%;
+float:left;
 
