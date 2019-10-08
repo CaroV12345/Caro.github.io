@@ -1,13 +1,15 @@
 <html>
   
     <head>
-   <link rel="stylesheet" type="text/css" href="estilos.css">
-   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="estilos.css">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <script src="scripts.js"></script>
   </head>
-    <body>
+  <body>
       
 <div id="arriba">
   <h1>Friends</h1>
+  <script>document.writeln('La temperatura en NY es:' + toCelsius(58) + 'ºC');</script>
 </div>
 
       
@@ -44,7 +46,7 @@ Marta Kauffman La ficción narra las vidas de una pandilla de amigos que viven e
   
     <div id="abajo">Página creada por Carolina Velasquez</div>
     
-    <button type="button" onclick="document.getElementById('fecha').innerHTML ='hola'">Aprieta aquí</button>
+    <button type="button" onclick="muestraFraseFecha()">Aprieta aquí</button>
 
     <div id="fecha"></div>
 
